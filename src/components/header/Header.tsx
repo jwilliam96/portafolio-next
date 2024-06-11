@@ -59,13 +59,14 @@ export function Header() {
 
                 <div className=" flex justify-center gap-6 pt-4 md:hidden">
                     <Link
-                        href="https://github.com/jwilliam96">
+                        aria-label="enlace a mi sitio de github" href="https://github.com/jwilliam96">
                         <IoLogoGithub
                             size={30}
                             className="dark:drop-shadow-dark-icon-neon drop-shadow-light-icon-neon transition-all duration-1000 " />
                     </Link>
 
                     <Link
+                        aria-label="enlace a mi sitio de linkedin"
                         href="http://linkedin.com/in/john-william-sanchez-atehortua-181aa5288" >
                         <FaLinkedinIn
                             size={30}
@@ -73,6 +74,7 @@ export function Header() {
                     </Link>
 
                     <Link
+                        aria-label="enlace a mi whatsapp"
                         href="https://api.whatsapp.com/send?phone=3115106911">
                         <FaWhatsapp
                             size={30}
@@ -80,6 +82,7 @@ export function Header() {
                     </Link>
 
                     <Link
+                        aria-label="enlace a mi correo electronico"
                         rel="noreferrer"
                         target="_blank"
                         href={`mailto:jwsa.web@gmail.com`}
