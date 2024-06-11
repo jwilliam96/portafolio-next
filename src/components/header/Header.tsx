@@ -26,6 +26,7 @@ export function Header() {
             <div className="md:hidden">
                 <figure className="dark:hidden">
                     <Image
+                        priority
                         className="w-full object-cover"
                         src={"/images/home/image-light.jpg"}
                         width={500}
@@ -34,6 +35,7 @@ export function Header() {
                 </figure>
                 <figure className="md:hidden">
                     <Image
+                        priority
                         className="w-full object-cover dark:block hidden"
                         src={"/images/home/image-dark.jpg"}
                         width={500}

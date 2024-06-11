@@ -76,7 +76,7 @@ export function Project() {
                                             rel="noreferrer"
                                             target="_blank"
                                         >
-                                            IR
+                                            Proyecto
                                         </Link>
                                     </div>
                                     {/* IMAGE  */}

@@ -79,42 +79,55 @@ export function Contact() {
                 >
                     <h3 className="text-5xl mb-8">Escribeme</h3>
 
-                    <label className="pl-4 py-2" >
+                    <label
+                        htmlFor="username"
+                        className="pl-4 py-2" >
                         Nombre
                     </label>
                     <input
+                        id="username"
                         {...register("username")}
                         className={`rounded-full  pl-4 transition-colors duration-1000 dark:text-gray-600 p-2 bg-[#46474e] dark:bg-white text-white`}
                         type="text"
                         required
+                        autoComplete="username"
                     />
 
-                    <label className="pl-4 py-2" >
+                    <label
+                        htmlFor="lastName"
+                        className="pl-4 py-2" >
                         Apellido
                     </label>
                     <input
+                        id="lastName"
                         {...register("lastName")}
                         className={`rounded-full  pl-4 transition-colors duration-1000 dark:text-gray-600 p-2 bg-[#46474e] dark:bg-white text-white`}
                         type="text"
                     />
 
-                    <label className="pl-4 py-2" >
+                    <label
+                        htmlFor="email"
+                        className="pl-4 py-2" >
                         Correo electronico
                     </label>
                     <input
+                        id="email"
                         {...register("email")}
                         className={`rounded-full  pl-4 transition-colors duration-1000 dark:text-gray-600 p-2 bg-[#46474e] dark:bg-white text-white`}
                         type="email"
                         required
+                        autoComplete="email"
                     />
 
-                    <label className="pl-4 py-2" >
+                    <label
+                        htmlFor="message"
+                        className="pl-4 py-2" >
                         Mensaje
                     </label>
                     <textarea
                         {...register("message")}
                         className={`rounded-2xl pl-4 transition-colors duration-1000 resize-none dark:text-gray-600 p-2 h-[110px] lg:h-[150px] bg-[#46474e] dark:bg-white text-white`}
-                        id=""
+                        id="message"
                     ></textarea>
 
                     <button
