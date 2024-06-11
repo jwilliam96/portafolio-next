@@ -80,7 +80,7 @@ export function Project() {
                                         </Link>
                                     </div>
                                     {/* IMAGE  */}
-                                    <Image src={`${project.image}`} width={450} height={300} alt="proyecto" className="w-full h-full object-cover" />
+                                    <Image priority src={`${project.image}`} width={450} height={300} alt="proyecto" className="w-full h-full object-cover" />
 
                                 </div>
                             </div>

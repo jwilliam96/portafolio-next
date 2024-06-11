@@ -24,10 +24,10 @@ export function Header() {
 
             {/* IMAGEN MOBILE  */}
             <div className="md:hidden">
-                <figure className="dark:hidden">
+                <figure >
                     <Image
                         priority
-                        className="w-full object-cover"
+                        className="w-full object-cover dark:hidden block"
                         src={"/images/home/image-light.jpg"}
                         width={500}
                         height={400}

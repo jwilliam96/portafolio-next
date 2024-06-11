@@ -68,15 +68,24 @@ export default function Sidebar() {
 
                 {/* REDES SOCIALES */}
                 <div className="flex justify-center mt-10 lg:mb-20 mb-12 gap-7">
-                    <Link className="cursor-pointer" href={"https://github.com/jwilliam96"}>
+                    <Link
+                        aria-label="enlace a mi sitio de github"
+                        className="cursor-pointer"
+                        href={"https://github.com/jwilliam96"}>
                         <SvgGitHub />
                     </Link>
 
-                    <Link className="cursor-pointer" href={"https://api.whatsapp.com/send?phone=3115106911"}>
+                    <Link
+                        aria-label="enlace a mi whatsapp"
+                        className="cursor-pointer"
+                        href={"https://api.whatsapp.com/send?phone=3115106911"}>
                         <SvgWhatsapp />
                     </Link>
 
-                    <Link className="cursor-pointer" href="http://linkedin.com/in/john-william-sanchez-atehortua-181aa5288">
+                    <Link
+                        aria-label="enlace a mi sitio de linkedin"
+                        className="cursor-pointer"
+                        href="http://linkedin.com/in/john-william-sanchez-atehortua-181aa5288">
                         <SvgLinkedin />
                     </Link>
                 </div>
