@@ -41,8 +41,8 @@ export function Footer() {
                     </h3>
                     <ul className="text-center">
                         <li>Api del clima</li>
-                        <li>E-commers</li>
-                        <li>Blog de notas</li>
+                        <li>Pokedex</li>
+                        <li>Galleta de la fortuna</li>
                         <li></li>
                     </ul>
                 </section>

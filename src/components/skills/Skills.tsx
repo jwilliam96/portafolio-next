@@ -37,7 +37,7 @@ export function Skills() {
         {
             title: "REACT",
             icon: <SvgReact />,
-            description: "Se utiliza para crear interfaces de usuario interactivas y dinámicas en aplicaciones web, facilita la actualización y renderización eficiente de componentes en respuesta a cambios de datos"
+            description: "Se utiliza para crear interfaces de usuario interactivas y dinámicas en aplicaciones web, facilita la actualización y renderización eficiente de componentes en respuesta a cambios de datos."
         },
         {
             title: "POSTGRES SQL",
@@ -77,8 +77,7 @@ export function Skills() {
                             </figure>
 
                             <p className={`text-[#46474E] mt-4 text-center dark:text-Dark-text`}>
-                                Es fundamental en el desarrollo web y sirve como base para la
-                                creación de sitios y aplicaciones en línea.
+                                {skill.description}
                             </p>
                         </article>
                     ))

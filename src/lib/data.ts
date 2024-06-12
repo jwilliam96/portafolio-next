@@ -16,7 +16,7 @@ export const projects = [
     {
         title: "Crud Task",
         project: "PROYECTO 3",
-        description: "Con esta aplicación podrás crear, eliminar, actualizar y completar tus tareas. Además de tener la opción de arrastrar y soltar para ordenar tus tareas como quieras, también puedes filtrar tus tareas por tareas completadas y aquellas que no se han completado.",
+        description: "Con esta aplicación podrás crear, eliminar, actualizar y completar tus tareas. Además de tener la opción de arrastrar y soltar para ordenarlas como desees, también puedes filtrarlas por tareas completadas y aquellas que no se han completado.",
         image: "/images/project/todo.png",
         url: "https://todos-next-brown.vercel.app"
     },

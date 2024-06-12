@@ -60,11 +60,11 @@ export default function Sidebar() {
 
             {/* NAV  */}
             <div className={clsx(
-                "fixed flex flex-col px-5 top-0 right-0 bottom-0 bg-Light-Fondo dark:bg-sidebar z-40 shadow-img-project-inv pb-20 lg:w-3/12 translate-x-0  transition-all duration-500",
+                "text-light-text dark:text-Dark-text fixed flex flex-col px-5 top-0 right-0 bottom-0 bg-Light-Fondo dark:bg-sidebar z-40 shadow-img-project-inv pb-20 lg:w-3/12 translate-x-0  transition-all duration-500",
                 { "translate-x-full": useStore }
             )}>
 
-                <h2 className="text-4xl mt-20 text-center">John Sanchez</h2>
+                <h2 className="text-4xl  font-serif mt-20 text-center">John Sanchez</h2>
 
                 {/* REDES SOCIALES */}
                 <div className="flex justify-center mt-10 lg:mb-20 mb-12 gap-7">
