@@ -47,7 +47,7 @@ export function Project() {
                                     className={clsx(` 
                                 hidden w-width-image h-height-image border-solid border-[13px]  absolute top-8
                                 border-Dark-title-session dark:lg:block `,
-                                        project.project === "PROYECTO 2" ? "right-14" : "left-8 "
+                                        project.project === "PROYECTO 2" || project.project === "PROYECTO 4" ? "right-14" : "left-8 "
                                     )}
                                 />
 
