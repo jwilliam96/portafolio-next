@@ -1,10 +1,10 @@
 "use client"
 
+import { useInView } from "react-intersection-observer";
 import { projects } from "@/lib/data";
-import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
-import { useInView } from "react-intersection-observer";
+import clsx from "clsx";
 
 export function Project() {
 
