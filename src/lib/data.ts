@@ -11,7 +11,7 @@ export const projects = [
         project: "PROYECTO 2",
         description: "Super Market es una aplicación de E-commerce, donde podrás encontrar diferentes categorías de productos, agregarlos a tu carrito, modificarlos, realizar tus ordenes, finalizar tu compra y ver todas tus ordenes creadas.",
         image: "/images/project/supermarket.png",
-        url: "https://supermarket-git-master-william-sanchezs-projects.vercel.app"
+        url: "https://supermarket-lime.vercel.app"
     },
     {
         title: "Blog de mascotas",
