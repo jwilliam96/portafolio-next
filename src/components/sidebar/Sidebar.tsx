@@ -62,7 +62,7 @@ export default function Sidebar() {
             )}>
 
                 <h2 className="text-4xl md:text-5xl  font-serif mt-20 text-center">John Sanchez</h2>
-                <a href="/pdf/CV_william_sanchez.pdf" download className="flex justify-center items-center gap-3 mt-5 bg-gray-600 max-w-max mx-auto p-2 rounded-md cursor-pointer hover:bg-gray-700">
+                <a href="/pdf/CV_william_sanchez.pdf" download className="flex justify-center items-center gap-3 mt-5 dark:bg-gray-600 max-w-max mx-auto p-2 rounded-md cursor-pointer dark:hover:bg-gray-700 bg-gray-300 hover:bg-gray-400">
                     <FaCloudArrowDown size={30} />
                     <p>Descargar CV</p>
                 </a>
