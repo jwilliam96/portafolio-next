@@ -1,0 +1,2 @@
+
+export { skills } from "./skillsList"
